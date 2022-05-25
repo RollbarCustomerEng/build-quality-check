@@ -20,12 +20,18 @@ Script to query the the Versions API to check the number of New or Reactivated e
 
 ##Return Codes:
 
-0 - Success - No new items
-1 - New Items - New items of level Error or Critical
-2 - Reactivated Items - Reactivated items of level Error or Critical
-3 - New and Reactivated Items - New and Reactivated items of level Error or Critical
-100 - General Error
-101 - Web Request Error
+0 - Success - No new items.  
+
+1 - New Items - New items of level Error or Critical.  
+
+2 - Reactivated Items - Reactivated items of level Error or Critical.  
+
+3 - New and Reactivated Items - New and Reactivated items of level Error or Critical.  
+
+100 - General Error.  
+
+101 - Web Request Error.  
+
 
 # run_task.sh
 Shell script that reads the access token from an environment variable and call the script build_quality_check.py for a specific code_version and environment
