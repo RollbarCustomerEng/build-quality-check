@@ -6,12 +6,12 @@ Script to query the the Versions API to check the number of New or Reactivated e
 
 ##Arguments:
 
---access-token - A Rollbar access token with read scope
---code-version - The code_version of the error in Rollbar
---item-threshold - The number of items above which quality is considered Failed
+--access-token - A Rollbar access token with read scope. 
+--code-version - The code_version of the error in Rollbar. 
+--item-threshold - The number of items above which quality is considered Failed. 
 
---checks - The number of times you check the item counts. Used for progressive deployments (canary, blue/green)
---check-seconds - The number of seconds between each check. Used for progressive deployments
+--checks - The number of times you check the item counts. Used for progressive deployments (canary, blue/green). 
+--check-seconds - The number of seconds between each check. Used for progressive deployments.  
 
 ##Return Codes:
 
