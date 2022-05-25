@@ -10,6 +10,9 @@ Script to query the the Versions API to check the number of New or Reactivated e
 
 --code-version - The code_version of the error in Rollbar. 
 
+--environment - The environment naame.  
+
+
 --item-threshold - The number of items above which quality is considered Failed. 
 
 
